@@ -46,12 +46,14 @@ body {
     align-items: center;
     justify-content: center;
     gap: 48px;
+    padding-bottom: 36px;
 
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .hero-text {
@@ -64,15 +66,22 @@ body {
     font-size: 18px;
     font-weight: 300;
     color: #E5E7EB;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-weight: 500;
-    font-size: large;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    align-self: flex-start;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-radius: 12px;
 
 }
 
-.hero-right {
-}
