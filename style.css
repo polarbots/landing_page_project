@@ -82,6 +82,24 @@ button {
     padding-left: 36px;
     padding-right: 36px;
     border-radius: 12px;
+}
+
+.info-pane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-squares {
+    display: flex;
+    font-size: 18px;
+    color: #1F2937;
 
 }
 
