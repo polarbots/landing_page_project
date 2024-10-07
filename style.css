@@ -106,12 +106,23 @@ button {
     font-size: 18px;
     color: #1F2937;
     gap: 24px;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.info-square {
+    display: table;
 }
 
 .info-square img {
     border: 5px solid #3882F6;
     border-radius: 16px;
+}
+
+.info-square figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    padding-top: 8px;
 }
 
