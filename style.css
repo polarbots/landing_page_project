@@ -88,6 +88,11 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 36px;
+    padding-left: 72px;
+    padding-right: 72px;
+    gap: 48px;
+    padding-bottom: 36px;
 }
 
 .information-text {
@@ -100,6 +105,13 @@ button {
     display: flex;
     font-size: 18px;
     color: #1F2937;
+    gap: 24px;
+    justify-content: space-evenly;
 
+}
+
+.info-square img {
+    border: 5px solid #3882F6;
+    border-radius: 16px;
 }
 
