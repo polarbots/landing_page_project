@@ -70,9 +70,7 @@ body {
     padding-bottom: 8px;
 }
 
-.hero-left > button {
-    background-color: #3882F6;
-    color: #F9FAF8;
+button {
     font-weight: 600;
     font-size: 18px;
     border: none;
@@ -82,6 +80,11 @@ body {
     padding-left: 36px;
     padding-right: 36px;
     border-radius: 12px;
+}
+
+.hero-left > button {
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 .info-pane {
