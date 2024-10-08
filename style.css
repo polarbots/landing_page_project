@@ -70,7 +70,7 @@ body {
     padding-bottom: 8px;
 }
 
-button {
+.hero-left > button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: 600;
@@ -143,6 +143,5 @@ blockquote {
     font-weight: 600;
     margin: 0;
     align-self: flex-end;
-
 }
 
