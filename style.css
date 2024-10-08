@@ -80,9 +80,6 @@ button {
     padding-left: 36px;
     padding-right: 36px;
     border-radius: 12px;
-}
-
-.hero-left > button {
     background-color: #3882F6;
     color: #F9FAF8;
 }
@@ -148,3 +145,29 @@ blockquote {
     align-self: flex-end;
 }
 
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 172px;
+    border-radius: 12px;
+}
+
+.cta-content {
+    display: flex;
+    padding: 72px;
+}
+
+.cta-left {
+    color: #E5E7EB;
+}
+
+.cta-main {
+    font-weight: 600;
+}
+
+.cta-content > button {
+    border-color: #E5E7EB;
+    border: 2px solid;
+}
